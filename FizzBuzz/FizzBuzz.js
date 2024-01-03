@@ -9,7 +9,7 @@
 
 let numMax = 100
 
-for (let iNumprev = 0; iNumprev <= numMax; iNumprev++) {
+for (let iNumprev = 0; iNumprev < numMax; iNumprev++) {
     if (iNumprev % 3 == 0 && iNumprev % 5 == 0) {
         console.log("fizzbuzz")
     } else if (iNumprev % 3 == 0) {
